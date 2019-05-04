@@ -1,12 +1,22 @@
 {
   "name": "sql-tag",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "license": "MIT",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "umd:main": "dist/sql-tag.umd.production.js",
   "module": "dist/sql-tag.es.production.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
+  ],
+  "description": "Build sql queries for mysqljs in a safe and comfortable way 💥",
+  "repository": "blackdahila/sql-tag",
+  "keywords": [
+    "sql",
+    "mysql",
+    "mysqljs",
+    "template"
   ],
   "scripts": {
     "start": "tsdx watch",
