@@ -15,7 +15,7 @@ const userId = 1;
 sql`SELECT * FROM users WHERE id = ${userId};`;
 ```
 
-It'll be converted to the the object of type `QueryOptions` that is accepted by **mysqljs**.
+It'll be converted to the the object of type `QueryOptions` accepted by **mysqljs**.
 
 ```js
 {
@@ -24,7 +24,7 @@ It'll be converted to the the object of type `QueryOptions` that is accepted by 
 }
 ```
 
-## Instalation
+## Installation
 
 ```sh
 yarn add tag-sql --dev
