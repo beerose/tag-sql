@@ -12,7 +12,7 @@
     "dist"
   ],
   "description": "Build sql queries for mysqljs in a safe and comfortable way 💥",
-  "repository": "blackdahila/sql-tag",
+  "repository": "blackdahila/tag-sql",
   "keywords": [
     "sql",
     "mysql",
