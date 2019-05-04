@@ -2,6 +2,8 @@
 
 ![npm](https://img.shields.io/npm/v/tag-sql.svg)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/tag-sql.svg?color=purple)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+
 
 Build sql queries for mysqljs in a safe and comfortable way 💥
 
