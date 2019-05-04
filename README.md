@@ -1,13 +1,13 @@
-# sql-tag
+# tag-sql
 
-![npm](https://img.shields.io/npm/v/sql-tag.svg)
-![npm bundle size](https://img.shields.io/bundlephobia/min/sql-tag.svg)
+![npm](https://img.shields.io/npm/v/tag-sql.svg)
+![npm bundle size](https://img.shields.io/bundlephobia/min/tag-sql.svg?color=purple)
 
 Build sql queries for mysqljs in a safe and comfortable way 💥
 
 ---
 
-**sql-tag** allows to pass query parameters directly to the query string.
+**tag-sql** allows to pass query parameters directly to the query string.
 It's the alternative for parametrized queries.
 
 ```js
@@ -22,6 +22,12 @@ It'll be converted to the the object of type `QueryOptions` that is accepted by 
   sql: SELECT * FROM users WHERE id = ?;,
   values: [userId],
 }
+```
+
+## Instalation
+
+```sh
+yarn add tag-sql --dev
 ```
 
 ## Local Development

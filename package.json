@@ -5,6 +5,8 @@
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "umd:main": "dist/tag-sql.umd.production.js",
+  "module": "dist/tag-sql.es.production.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
