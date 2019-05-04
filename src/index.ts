@@ -1,5 +1,5 @@
 // @types/mysql QueryOptions
-type QueryOptions = {
+export type QueryOptions = {
   sql: string;
   values: unknown[];
 };
