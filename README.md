@@ -13,7 +13,6 @@ Build sql queries for mysqljs in a safe and comfortable way 💥
 It's the alternative for parametrized queries.
 
 ```js
-const userId = 1;
 sql`SELECT * FROM users WHERE id = ${userId};`;
 ```
 
@@ -21,7 +20,7 @@ It'll be converted to the the object of type `QueryOptions` accepted by **mysqlj
 
 ```js
 {
-  sql: SELECT * FROM users WHERE id = ?;,
+  sql: "SELECT * FROM users WHERE id = ?;",
   values: [userId],
 }
 ```
