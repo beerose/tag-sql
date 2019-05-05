@@ -5,7 +5,7 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 
-Build sql queries for mysqljs in a safe and comfortable way 💥
+Build sql queries for [mysqljs](https://github.com/mysqljs/mysql) in a safe and comfortable way 💥
 
 ---
 
